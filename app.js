@@ -13,9 +13,7 @@ function clock() {
     //add math for rotate
     const rosecond = second * 6;
     const rominute = minute * 6;
-    const rohour = hour * 14.4;
-
-    console.log(rohour);
+    const rohour = hour * 15;
 
     secondhand.style.transform =  `rotate(${rosecond}deg)`;
     minutehand.style.transform = `rotate(${rominute}deg)`;

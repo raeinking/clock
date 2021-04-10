@@ -37,17 +37,30 @@
         text-align:center;
     }
 
-    .clock .number1 { --rotation: 35deg;}
-    .clock .number2 { --rotation: 65deg;}
-    .clock .number3 { --rotation: 95deg;}
-    .clock .number4 { --rotation: 125deg;}
-    .clock .number5 { --rotation: 155deg;}
-    .clock .number6 { --rotation: 185deg;}
-    .clock .number7 { --rotation: 215deg;}
-    .clock .number8 { --rotation: 245deg;}
-    .clock .number9 { --rotation: 275deg;}
-    .clock .number10 { --rotation: 305deg;}
-    .clock .number11 { --rotation: 335deg;}
+    .clock .number1 { --rotation: 15deg;}
+    .clock .number2 { --rotation: 30deg;}
+    .clock .number3 { --rotation: 45deg;}
+    .clock .number4 { --rotation: 60deg;}
+    .clock .number5 { --rotation: 75deg;}
+    .clock .number6 { --rotation: 90deg;}
+    .clock .number7 { --rotation: 105deg;}
+    .clock .number8 { --rotation: 120deg;}
+    .clock .number9 { --rotation: 135deg;}
+    .clock .number10 { --rotation: 150deg;}
+    .clock .number11 { --rotation: 165deg;}
+    .clock .number12 { --rotation: 180deg;}
+    .clock .number13 { --rotation: 195deg;}
+    .clock .number14 { --rotation: 210deg;}
+    .clock .number15 { --rotation: 225deg;}
+    .clock .number16 { --rotation: 240deg;}
+    .clock .number17 { --rotation: 255deg;}
+    .clock .number18 { --rotation: 270deg;}
+    .clock .number19 { --rotation: 285deg;}
+    .clock .number20 { --rotation: 300deg;}
+    .clock .number21 { --rotation: 315deg;}
+    .clock .number22 { --rotation: 330deg;}
+    .clock .number23 { --rotation: 345deg;}
+    .clock .number24 { --rotation: 0deg;}
 
   
 
