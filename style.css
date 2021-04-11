@@ -37,35 +37,23 @@
         text-align:center;
     }
 
-    .clock .number1 { --rotation: 15deg;}
-    .clock .number2 { --rotation: 30deg;}
-    .clock .number3 { --rotation: 45deg;}
-    .clock .number4 { --rotation: 60deg;}
-    .clock .number5 { --rotation: 75deg;}
-    .clock .number6 { --rotation: 90deg;}
-    .clock .number7 { --rotation: 105deg;}
-    .clock .number8 { --rotation: 120deg;}
-    .clock .number9 { --rotation: 135deg;}
-    .clock .number10 { --rotation: 150deg;}
-    .clock .number11 { --rotation: 165deg;}
-    .clock .number12 { --rotation: 180deg;}
-    .clock .number13 { --rotation: 195deg;}
-    .clock .number14 { --rotation: 210deg;}
-    .clock .number15 { --rotation: 225deg;}
-    .clock .number16 { --rotation: 240deg;}
-    .clock .number17 { --rotation: 255deg;}
-    .clock .number18 { --rotation: 270deg;}
-    .clock .number19 { --rotation: 285deg;}
-    .clock .number20 { --rotation: 300deg;}
-    .clock .number21 { --rotation: 315deg;}
-    .clock .number22 { --rotation: 330deg;}
-    .clock .number23 { --rotation: 345deg;}
-    .clock .number24 { --rotation: 0deg;}
+    .clock .number1 { --rotation: 30deg;}
+    .clock .number2 { --rotation: 60deg;}
+    .clock .number3 { --rotation: 90deg;}
+    .clock .number4 { --rotation: 120deg;}
+    .clock .number5 { --rotation: 150deg;}
+    .clock .number6 { --rotation: 180deg;}
+    .clock .number7 { --rotation: 210deg;}
+    .clock .number8 { --rotation: 240deg;}
+    .clock .number9 { --rotation: 270deg;}
+    .clock .number10 { --rotation: 300deg;}
+    .clock .number11 { --rotation: 330deg;}
+    .clock .number12 { --rotation: 360deg;}
 
   
 
     .clock .hand {
-        --rotation:300;
+        --rotation:0;
         position:absolute;
         left: 50%;
         bottom:50%;
@@ -75,7 +63,7 @@
         background-color:black;
         z-index:5;
         transform-origin: bottom;
-        transform: translatex(-50%) rotate(calc(var(--rotation) * 1deg))
+        transform:  translateX(-50%) rotate(calc(var(--rotation) * 1deg))
     }
 
     .clock::after {
@@ -97,13 +85,14 @@
         background-color:red;
     }
     .clock .hand.minute {
-        width: 7px;
+        width: 6px;
         height: 40%;
         background-color:black;
     }
     .clock .hand.hour {
-        width: 10px;
-        height: 30%;
+        width: 7px;
+        height: 33%;
         background-color:black;
     }
 
+    

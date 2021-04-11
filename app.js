@@ -10,17 +10,27 @@ function clock() {
     const minute = date.getMinutes();
     const hour = date.getHours();
 
-    //add math for rotate
+    //add math for hour point
+    const numpoint= Math.floor(minute * 1.666);
+
+    //function for 24 to 12 clock
+    if(hour > 12) {
+        var a = hour;
+        var s = 12;
+        var d = a - s;
+    }
+    var c = d +"."+numpoint;
+    console.log(c);
+
+    //add math for rotate all hands
     const rosecond = second * 6;
     const rominute = minute * 6;
-    const rohour = hour * 15;
+    const rohour = c * 30;
 
+    //add style of rotate
     secondhand.style.transform =  `rotate(${rosecond}deg)`;
     minutehand.style.transform = `rotate(${rominute}deg)`;
-    hourhand.style.transform = `rotate(${rohour}deg)`;
+    hourhand.style.transform = `rotate(${rohour}deg)`
 
 }
 
-
-
- 
